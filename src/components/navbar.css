@@ -1,0 +1,21 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #EEE0CB;
+    display: flex; /* defines the flex container*/
+    justify-content: flex-end; /*Defines the alignment elong the main axis */
+    align-items: center; /* Defines the default behaviuor of how the flex items are laid out along the cross axis on the vurrent line. opposite as the justify-content */
+}
+
+.links {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #C2847A;
+    margin-left: 20px;
+    font-size: 25px;
+}
